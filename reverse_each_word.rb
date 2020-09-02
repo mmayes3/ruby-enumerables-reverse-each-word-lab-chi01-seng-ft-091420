@@ -4,6 +4,6 @@ def reverse_each_word(sent)
   my.collect do |word|
     new_sent.push(word.reverse)
   end
-  p new_sent.join(" ")
+  return new_sent.join(" ")
 end
-reverse_each_word("Hello there, and how are you?")
+puts reverse_each_word("Hello there, and how are you?")
