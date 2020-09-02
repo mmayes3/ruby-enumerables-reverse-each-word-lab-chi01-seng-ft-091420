@@ -1,5 +1,5 @@
 def reverse_each_word(sent)
-  my = sent.split("")
+  my = sent.split
   p my
 end
 
