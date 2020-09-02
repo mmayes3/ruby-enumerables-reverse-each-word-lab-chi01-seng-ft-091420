@@ -1,6 +1,8 @@
 def reverse_each_word(sent)
   my = sent.split.reverse
-  p my
+  my.collect do |word|
+    word + word
+  end
 end
 
 reverse_each_word("Hello there, and how are you?")
