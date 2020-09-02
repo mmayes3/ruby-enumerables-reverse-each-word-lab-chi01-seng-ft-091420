@@ -1,7 +1,9 @@
 def reverse_each_word(sent)
   my = sent.split
+  new_sent = []
   my.collect do |word|
     word.reverse
+    new_sent.push(word)
   end
  
 end
