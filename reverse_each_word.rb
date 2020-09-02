@@ -3,7 +3,6 @@ def reverse_each_word(sent)
   new_sent = []
   my.collect do |word|
     word.reverse
-    new_sent.push(word)
   end
  
 end
